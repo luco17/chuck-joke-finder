@@ -7,6 +7,38 @@
   pointer-events: none;
 }
 
+.titles {
+  margin: 2em;
+}
+
+.titles * {
+  margin: 4px auto;
+}
+
+.titles span {
+  color: #868e96;
+}
+
+#searchJokes {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.searchers {
+  margin-top: 0.5em;
+}
+
+
+.searchers * {
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding: 4px 12px;
+}
+
+.jokes {
+  margin: 1em 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
